@@ -1,0 +1,46 @@
+body {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 0.5s ease;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 55px;
+  text-align: center; /* Para centrar el texto */
+  white-space: nowrap;
+  background-clip: text;
+  -webkit-background-clip: text; /* Safari/Chrome */
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgb(14, 124, 197),
+    rgb(35, 179, 236),
+    rgb(8, 219, 191),
+    rgb(49, 238, 128)
+  );
+  transition: background-image 0.5s ease;
+}
+
+h1 .line-break {
+  display: block;
+}
+
+button {
+  margin: auto 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 3px;
+  border-radius: 40px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #01000d;
+  transition: background-color 0.5s ease;
+}
